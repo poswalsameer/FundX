@@ -26,6 +26,4 @@ function Header({headerElements} : {headerElements: string[]}) {
   )
 }
 
-// The error in the code is that the map function is not being used correctly. The map function should be used to iterate over the array and return a new JSX element for each item in the array. The correct way to use the map function is to wrap the returned JSX element in a parenthesis and use the key prop to assign a unique key to each element.
-
 export default Header

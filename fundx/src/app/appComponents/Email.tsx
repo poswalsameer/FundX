@@ -14,8 +14,6 @@ function Email() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
-        // Here you would typically send the email to your backend
-        console.log('Submitted email:', email)
         toast({
         title: "This feature will be coming in the next version. Thanks for your patience!",
         })

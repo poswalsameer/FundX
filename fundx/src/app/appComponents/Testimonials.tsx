@@ -41,7 +41,6 @@ const reviews = [
 ];
 
 const firstRow = reviews;
-const secondRow = reviews.slice(reviews.length / 2);
 
 const ReviewCard = ({
   img,
@@ -58,8 +57,6 @@ const ReviewCard = ({
     <figure
       className={cn(
         "relative h-56 w-64 flex flex-col justify-center items-center cursor-pointer overflow-hidden rounded-xl border-2 p-4",
-        // light styles
-        // "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         "border-gray-950/[.1] hover:bg-gray-950/[.05]",
       )}
     >
@@ -86,11 +83,6 @@ export function Testimonials() {
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      {/* <Marquee reverse pauseOnHover className="[--duration:20s]">
-        {secondRow.map((review) => (
-          <ReviewCard key={review.username} {...review} />
-        ))}
-      </Marquee> */}
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black dark:from-background  "></div>
       <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-black dark:from-background"></div>
     </div>

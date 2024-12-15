@@ -1,7 +1,4 @@
 'use client'
-
-import { Button } from '@/components/ui/button'
-import RippleButton from '@/components/magicui/ripple-button'
 import ShimmerButton from "@/components/magicui/shimmer-button";
 import React from 'react'
 import { useRouter } from 'next/navigation';

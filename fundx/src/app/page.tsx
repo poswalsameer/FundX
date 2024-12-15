@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Email from "./appComponents/Email";
 import Features from "./appComponents/Features";
 import Footer from "./appComponents/Footer";

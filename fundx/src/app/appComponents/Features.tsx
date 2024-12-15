@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Rocket, Target, BarChart3, Users } from 'lucide-react'
+import { Rocket, Target, BarChart3 } from 'lucide-react'
 
 function Features() {
     
