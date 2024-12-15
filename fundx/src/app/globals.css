@@ -6,6 +6,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#heroBackground {
+  background: linear-gradient(to bottom, #04619F, #000000 );
+}
+
+#testimonialsDiv {
+  background: linear-gradient(to bottom, #000000, #04619F );
+}
+
+/* #headerBackground {
+  background: linear-gradient(to right, #91A6FF, #5CA0F2);
+} */
+
+.heroText{
+  background: linear-gradient(to right, #FFFFFF, #799ece, #6b95cc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* #bg-grid-pattern {
   background-image: 
     linear-gradient(to right, #e5e7eb 1px, transparent 1px),
