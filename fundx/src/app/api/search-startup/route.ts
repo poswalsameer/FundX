@@ -43,7 +43,7 @@ export async function POST(Request: NextRequest){
             headers: { "Content-Type": "text/plain" },
         });
     } 
-    catch (error: any) {
+    catch (error) {
         return NextResponse.json(
             {message: "Error while generating content on the entered startup"},
             {status: 500}
