@@ -7,9 +7,12 @@ import Hero from "./appComponents/Hero";
 import { Testimonials } from "./appComponents/Testimonials";
 
 export default function Home() {
+
+  const headerElements: string[] = ["Features", "Testimonials"];
+
   return (
     <div className="min-h-screen w-full bg-black " >
-      <Header />
+      <Header headerElements={headerElements} />
       <Hero />
       <Features />
       <Testimonials />
